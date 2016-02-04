@@ -1,0 +1,5 @@
+---
+# tasks file for whirm.install_dispersy
+
+- name: make sure we have an up to date clone of the dispersy repo
+  git: repo={{dispersy_repo_url}} dest=/opt/dispersy depth=1 force=yes recursive=yes update=yes version={{dispersy_repo_version}}

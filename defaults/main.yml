@@ -1,0 +1,5 @@
+---
+# defaults file for whirm.install_dispersy
+
+dispersy_repo_url: https://github.com/Tribler/dispersy.git
+dispersy_repo_version: devel
